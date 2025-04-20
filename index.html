@@ -3,91 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 核心Meta描述标签（符合SEO规范） -->
-    <meta name="description" content="专注于Wildcard虚拟卡的全面指南，包括申请流程、使用技巧、安全策略及行业动态分析，帮助用户高效管理数字支付。">
+    <meta name="description" content="Wildcard虚拟卡 - 全球领先的数字支付平台，支持多币种即时开卡、智能消费管理、企业级安全防护，助力跨境交易高效便捷。">
     
-    <!-- Tailwind CSS & Font Awesome 引入 -->
+    <title>Wildcard虚拟卡 - 重新定义数字支付</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
     
-    <title>Wildcard虚拟卡实验室 | 探索数字支付新可能</title>
+    <style>
+        :root {
+            --primary: #007BFF;        /* 官网主蓝色 */
+            --secondary: #0056B3;      /* 深色强调 */
+            --bg-gray: #F8F9FA;
+        }
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            border-radius: 0.5rem;
+            transition: transform 0.2s ease;
+        }
+        .btn-primary:hover {
+            background: var(--secondary);
+            transform: scale(1.03);
+        }
+        .section-title {
+            color: var(--primary);
+            border-bottom: 3px solid var(--secondary);
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+    </style>
 </head>
-<body class="bg-gray-50 font-sans leading-normal tracking-normal">
-    <!-- 导航栏 -->
-    <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
-        <div class="flex items-center flex-shrink-0 text-white mr-6">
-            <span class="font-semibold text-xl tracking-tight">Wildcard实验室</span>
-        </div>
-        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-            <div class="text-sm lg:flex-grow">
-                <a href="#about" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                    关于我们
-                </a>
-                <a href="#articles" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                    最新文章
-                </a>
-                <a href="#contact" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-                    联系我们
-                </a>
+<body class="font-sans antialiased bg-gray-100">
+
+    <!-- 顶部导航栏 -->
+    <nav class="fixed w-full bg-white shadow-md z-10">
+        <div class="container mx-auto px-4 py-2">
+            <div class="flex justify-between items-center">
+                <!-- 品牌标识 -->
+                <a href="/" class="text-xl font-bold text-primary">Wildcard</a>
+                
+                <!-- 导航链接 -->
+                <div class="flex space-x-6">
+                    <a href="#products" class="text-base text-gray-700 hover:text-primary">产品</a>
+                    <a href="#features" class="text-base text-gray-700 hover:text-primary">功能</a>
+                    <a href="#security" class="text-base text-gray-700 hover:text-primary">安全</a>
+                    <a href="#pricing" class="text-base text-gray-700 hover:text-primary">定价</a>
+                    <a href="#signup" class="px-4 py-2 bg-primary text-white rounded hover:bg-secondary">
+                        立即开卡 <i class="fas fa-keyboard-o ml-1"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
 
-    <!-- 主内容区域 -->
-    <div class="container w-full md:max-w-3xl mx-auto pt-20">
-        <div class="w-full px-4 text-center">
-            <h1 class="text-4xl font-bold text-gray-800 leading-tight">
-                Wildcard虚拟卡深度解析
+    <!-- 英雄区域 -->
+    <section class="min-h-screen flex items-center justify-center pt-24 bg-cover bg-center bg-gray-50">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-5xl font-bold text-primary mb-4">
+                全球支付，触手可及
             </h1>
-            <p class="text-xl text-gray-600 mt-4">
-                聚焦虚拟支付卡前沿技术，提供从开卡到实战的全流程攻略，助力掌握数字金融新工具
+            <p class="text-xl text-gray-700 mb-8">
+                即时开卡 • 多币支持 • 实时监控 • 企业级安全
             </p>
-        </div>
-
-        <!-- 文章列表示例 -->
-        <div class="mt-12">
-            <div class="rounded-lg shadow-lg bg-white p-6">
-                <h2 class="text-2xl font-bold text-gray-800 mb-4">
-                    <i class="fas fa-key mr-2 text-teal-500"></i>Wildcard开卡避坑指南
-                </h2>
-                <p class="text-gray-700 leading-relaxed">
-                    详细拆解主流平台开卡流程，分析地址验证、额度管理、货币转换等核心环节的常见问题及解决方案...
-                </p>
-                <a href="/article-1.html" class="inline-block text-sm bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded mt-4">
-                    阅读全文 <i class="fas fa-angle-right ml-2"></i>
+            <div class="flex justify-center space-x-4">
+                <a href="#signup" class="btn-primary px-6 py-3 font-bold">
+                    免费注册 <i class="fas fa-user-plus ml-2"></i>
                 </a>
-            </div>
-
-            <div class="mt-8 rounded-lg shadow-lg bg-white p-6">
-                <h2 class="text-2xl font-bold text-gray-800 mb-4">
-                    <i class="fas fa-lock mr-2 text-teal-500"></i>虚拟卡安全防护策略
-                </h2>
-                <p class="text-gray-700 leading-relaxed">
-                    从CVV保护、设备绑定到异常交易监控，多维度解析如何构建安全可靠的虚拟卡使用环境...
-                </p>
-                <a href="/article-2.html" class="inline-block text-sm bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded mt-4">
-                    阅读全文 <i class="fas fa-angle-right ml-2"></i>
+                <a href="#demo" class="px-6 py-3 border border-primary text-primary font-bold rounded hover:bg-primary hover:text-white">
+                    查看演示 <i class="fas fa-play-circle ml-2"></i>
                 </a>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- 核心优势模块 -->
+    <section id="features" class="container mx-auto px-4 py-16 bg-white">
+        <h2 class="text-4xl font-bold text-center section-title mb-12 mx-auto">
+            我们的核心优势
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+            <!-- 优势1：即时开卡 -->
+            <div class="p-6 text-center hover:shadow-lg transition">
+                <div class="text-3xl text-primary mb-4">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">即时开卡</h3>
+                <p class="text-gray-700">
+                    在线申请，秒级发卡，支持全球200+平台快速绑定
+                </p>
+            </div>
+
+            <!-- 优势2：多币支持 -->
+            <div class="p-6 text-center hover:shadow-lg transition">
+                <div class="text-3xl text-primary mb-4">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">多币账户</h3>
+                <p class="text-gray-700">
+                    支持USD/EUR/GBP等15+主流货币，实时汇率转换零手续费
+                </p>
+            </div>
+
+            <!-- 优势3：安全防护 -->
+            <div class="p-6 text-center hover:shadow-lg transition">
+                <div class="text-3xl text-primary mb-4">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">银行级安全</h3>
+                <p class="text-gray-700">
+                    AES-256加密技术，实时交易监控，异常操作24小时响应
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 行动号召区域 -->
+    <section class="bg-primary text-white text-center py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-6">
+                立即体验下一代虚拟卡
+            </h2>
+            <p class="text-xl mb-8">
+                新用户注册享$30开卡礼包，支持全球无国界消费，7×24小时客服在线
+            </p>
+            <a href="#signup" class="btn-primary px-8 py-3 font-bold shadow-lg">
+                开始免费试用 <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+    </section>
 
     <!-- 页脚 -->
-    <footer class="bg-teal-500 text-center text-white py-8 mt-12">
-        <div class="container mx-auto">
-            <p class="text-sm">
-                © 2025 Wildcard虚拟卡实验室 | 所有权利保留 | 粤ICP备12345678号
-            </p>
-            <div class="mt-4">
-                <a href="#" class="text-white hover:text-teal-200 mr-4">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-                <a href="#" class="text-white hover:text-teal-200 mr-4">
-                    <i class="fab fa-twitter"></i> Twitter
-                </a>
-                <a href="#" class="text-white hover:text-teal-200">
-                    <i class="fab fa-telegram"></i> Telegram
-                </a>
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <!-- 品牌信息 -->
+                <div>
+                    <a href="/" class="text-xl font-bold text-primary mb-4 block">Wildcard</a>
+                    <p class="text-sm text-gray-400">
+                        2025 © Wildcard Inc. 保留所有权利<br>
+                        粤ICP备12345678号 | 隐私政策 | 使用条款
+                    </p>
+                </div>
+
+                <!-- 社交媒体 -->
+                <div class="flex space-x-4">
+                    <a href="#" class="text-white hover:text-primary">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-primary">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-primary">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
