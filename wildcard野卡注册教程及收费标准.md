@@ -1,16 +1,3 @@
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "wildcard野卡注册教程及收费标准"
-    "author": {
-        "@type": "Person",
-        "name": "wildcard CEO"
-    },
-    "datePublished": "2025-04-21"
-    "description": "wildcard野卡注册教程及收费标准的文章，内容包含了wildcard的介绍，注册流程及收费标准"
-}
-</script>
 # wildcard野卡注册教程及收费标准
 
 在AI技术蓬勃发展的当下，ChatGPT等工具成为众多用户提升工作效率、探索前沿科技的得力助手。wildcard野卡作为一款助力用户订阅ChatGPT Plus等服务的平台，为大家提供了便捷的渠道。下面为大家详细介绍wildcard野卡的注册教程及收费标准。
