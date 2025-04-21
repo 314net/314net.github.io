@@ -1,17 +1,3 @@
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "wildcard野卡官方网站及虚拟卡注册流程指南"
-    "author": {
-        "@type": "Person",
-        "name": "wildcard CEO"
-    },
-    "datePublished": "2025-04-21"
-    "description": "这是一篇关于wildcard野卡官方网站及虚拟卡注册流程指南的文章，内容包含了wildcard的介绍，注册流程及使用指南"
-}
-</script>
-
 # wildcard野卡官方网站及虚拟卡注册流程指南
 
 在人工智能飞速发展的当下，ChatGPT等工具成为众多用户提升效率、获取知识的得力助手。而wildcard野卡官网，为用户在使用ChatGPT Plus订阅以及其他相关支付场景提供了便利。本文将详细介绍wildcard野卡官网，并为大家梳理其虚拟卡注册流程。
