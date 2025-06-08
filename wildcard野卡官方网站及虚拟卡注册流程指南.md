@@ -4,7 +4,7 @@
 
 ## 一、wildcard野卡官网介绍
 
-wildcard野卡官网[WildCard | 一分钟注册，轻松订阅海外线上服务](https://bewildcard.com/i/CEO)功能十分强大，主要体现在以下几个方面：
+wildcard野卡官网[WildCard | 一分钟注册，轻松订阅海外线上服务](https://bewildcard.com/i/DFG)功能十分强大，主要体现在以下几个方面：
 
 1. **ChatGPT订阅服务**：支持全自动订阅ChatGPT Plus，并且用户可以同时订阅4个ChatGPT Plus账户。如果订阅不成功，还提供全额退款服务，让用户没有后顾之忧。
 2. **支付场景广泛**：除了OpenAI相关支付，还覆盖了Apple Store美区、ChatGPT OpenAI API、Claude Anthropic API、Cursor等众多平台和应用的支付。同时，对于其他一些常见的消费场景，如Webshare、Patreon、Pixiv Fanbox、Netflix、Spotify等，也能提供支付支持，基本涵盖了国内使用OpenAI的完整场景。
@@ -13,7 +13,7 @@ wildcard野卡官网[WildCard | 一分钟注册，轻松订阅海外线上服务
   
   ## 二、虚拟卡注册流程
   
-5. **进入注册页面**：打开wildcard野卡官方注册入口[WildCard | 一分钟注册，轻松订阅海外线上服务](https://bewildcard.com/i/CEO)在页面中找到“register（注册）”按钮，点击进入注册页面。
+5. **进入注册页面**：打开wildcard野卡官方注册入口[WildCard | 一分钟注册，轻松订阅海外线上服务](https://bewildcard.com/i/DFG)在页面中找到“register（注册）”按钮，点击进入注册页面。
 6. **填写基本信息**
   - **手机号**：输入“+86”，然后填写本人真实的手机号码，用于接收验证码。
   - **验证码**：点击“点击获取”按钮，系统会发送验证码到填写的手机上，将收到的验证码填入相应位置。
