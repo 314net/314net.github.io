@@ -4,7 +4,7 @@
 
 ## 一、注册Wildcard野卡账号
 
-1. 打开浏览器，输入 Wildcard 野卡官网链接 [https://yeka.ai](https://yeka.ai/i/CEO)[/i/CE](https://yeka.ai/i/DFG)[O](https://yeka.ai/i/DFG) ，进入注册页面。
+1. 打开浏览器，输入 Wildcard 野卡官网链接 [https://yeka.ai](https://yeka.ai/i/DFG)[/i/CE](https://yeka.ai/i/DFG)[O](https://yeka.ai/i/DFG) ，进入注册页面。
   
 2. 在注册页面，填写有效的电子邮箱地址、设置安全密码，同时务必填写邀请码 DFG。填写邀请码不仅能帮助你顺利完成注册，还可能享受到额外的优惠与服务。
   
