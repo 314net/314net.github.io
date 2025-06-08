@@ -4,7 +4,7 @@
 
 ## 一、什么是 WildCard
 
-WildCard是一款专为解决国内用户订阅海外线上服务的平台，官网 [https://bewildcard.com/i/CEO](https://bewildcard.com/i/DFG)
+WildCard是一款专为解决国内用户订阅海外线上服务的平台，官网 [https://bewildcard.com/i/DFG](https://bewildcard.com/i/DFG)
 
 通过 WildCard 可以轻松订阅ChatGPT Plus等海外服务。
 
