@@ -1,6 +1,6 @@
 # Super Grok升级订阅最简单的方法：用Wildcard虚拟卡一步搞定
 
-对于需要升级订阅服务却担心隐私泄露或支付安全的用户来说，Wildcard虚拟卡提供了一种高效、安全的解决方案。本文将手把手教你如何通过Wildcard虚拟卡，以最简步骤完成Super Grok订阅升级，全程无需暴露真实信用卡信息，告别繁琐操作。wildcard官网入口[WildCard | 一分钟注册，轻松订阅海外线上服务](https://bewildcard.com/i/CEO)
+对于需要升级订阅服务却担心隐私泄露或支付安全的用户来说，Wildcard虚拟卡提供了一种高效、安全的解决方案。本文将手把手教你如何通过Wildcard虚拟卡，以最简步骤完成Super Grok订阅升级，全程无需暴露真实信用卡信息，告别繁琐操作。wildcard官网入口[WildCard | 一分钟注册，轻松订阅海外线上服务](https://bewildcard.com/i/DFG)
 
 ### **为什么选择Wildcard虚拟卡？**
 
@@ -13,7 +13,7 @@
 
 #### **第一步：注册Wildcard账户**
 
-- 访问[WildCard | 一分钟注册，轻松订阅海外线上服务](https://bewildcard.com/i/CEO)使用手机号加验证码快速注册。
+- 访问[WildCard | 一分钟注册，轻松订阅海外线上服务](https://bewildcard.com/i/DFG)使用手机号加验证码快速注册。
 - 完成基础信息填写（无需信用卡验证），进入控制台。
 
 #### **第二步：创建虚拟卡**
