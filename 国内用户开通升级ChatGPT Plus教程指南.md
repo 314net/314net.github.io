@@ -4,14 +4,14 @@
 
 ## 一、什么是 WildCard
 
-WildCard是一款专为解决国内用户订阅海外线上服务的平台，官网 [https://bewildcard.com/i/CEO](https://bewildcard.com/i/CEO)
+WildCard是一款专为解决国内用户订阅海外线上服务的平台，官网 [https://bewildcard.com/i/CEO](https://bewildcard.com/i/DFG)
 
 通过 WildCard 可以轻松订阅ChatGPT Plus等海外服务。
 
 ## 二、注册WildCard账号
 
 1. 访问 WildCard 官网，点击 “注册” 按钮。
-2. 填写邀请码 “CEO”，然后按照要求填写邮箱、设置密码等信息完成注册。
+2. 填写邀请码 “DFG”，然后按照要求填写邮箱、设置密码等信息完成注册。
 
 ## 三、申请虚拟卡
 
