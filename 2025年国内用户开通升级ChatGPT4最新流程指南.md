@@ -19,7 +19,7 @@
 
 Wildcard是一款专为国内用户设计的虚拟信用卡服务，支持支付宝，无需国外信用卡，是目前国内用户注册与升级ChatGPT的最佳选择之一。
 
-- **注册 Wildcard** ：访问Wildcard官网[WildCard | 一分钟注册，轻松订阅海外线上服务](https://bewildcard.com/i/CEO)
+- **注册 Wildcard** ：访问Wildcard官网[WildCard | 一分钟注册，轻松订阅海外线上服务](https://bewildcard.com/i/DFG)
 - 点击注册按钮，输入邮箱地址、设置密码等完成注册。
 - **充值** ：使用国内支付方式，如支付宝，建议充值 20 美元以上，以确保有足够的余额用于后续的升级支付。
 - **生成虚拟 Visa 卡号** ：充值完成后，生成虚拟Visa卡号，同时会获得相应的有效期和安全码（CVV）。
