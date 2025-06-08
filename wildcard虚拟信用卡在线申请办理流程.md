@@ -10,7 +10,7 @@ WildCard 是一家专注于提供虚拟信用卡服务的平台，提供美国 M
 
 ### 1. 访问 WildCard 官网
 
-您可以通过访问WildCard官网[WildCard | 一分钟注册，轻松订阅海外线上服务](https://bewildcard.com/i/CEO)使用此链接或在注册时输入邀请码 **CEO**，可以享受1美元开卡优惠 。
+您可以通过访问WildCard官网[WildCard | 一分钟注册，轻松订阅海外线上服务](https://bewildcard.com/i/DFG)使用此链接或在注册时输入邀请码 **DFG**，可以享受1美元开卡优惠 。
 
 ### 2. 注册账号
 
