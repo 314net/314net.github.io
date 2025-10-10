@@ -3,7 +3,7 @@
 在 WildAI 平台代充 ChatGPT Plus 会员，可以让你轻松享受 ChatGPT 的高级功能，以下是详细的步骤：
 
 ## 一、注册 WildAI 账号
-访问 WildAI 官方网站 [https://9191.ai?code=MASK](https://9191.ai?code=MASK)，使用 +86 手机号完成账号注册。注册时需点击右上角的“登录/注册”按钮，并选择“使用手机验证码登录”来完成登录。在注册时使用邀请码“MASK”，可享受 1 美元优惠。
+访问 WildAI 官方网站 [https://9191.ai?code=CEO](https://9191.ai?code=CEO)，使用 +86 手机号完成账号注册。注册时需点击右上角的“登录/注册”按钮，并选择“使用手机验证码登录”来完成登录。在注册时使用邀请码“CEO”，可享受 1 美元优惠。
 
 ## 二、选择 ChatGPT Plus 服务并支付
 登录 WildAI 账号后，选择 ChatGPT Plus 服务。WildAI 支持微信、银行卡等多种支付方式，根据页面提示进行支付即可。
