@@ -1,6 +1,6 @@
 # WildAI-重新定义海外AI服务订阅
 
-WildAI 前身是 WildCard，于 2025 年 9 月 20 日以新网址<https://9191.ai?code=CEO>正式回归并更名为 WildAI。WildAI 主要为用户提供海外 AI 服务的订阅功能，不再提供虚拟卡号服务。它支持微信、银行卡等多种支付方式，用户可以直接在平台上订阅 ChatGPT Plus、Claude Pro 等 AI 服务。
+WildAI 前身是 WildCard，于 2025 年 9 月 20 日以新网址<https://bewild.ai?code=CEO>正式回归并更名为 WildAI。WildAI 主要为用户提供海外 AI 服务的订阅功能，不再提供虚拟卡号服务。它支持微信、银行卡等多种支付方式，用户可以直接在平台上订阅 ChatGPT Plus、Claude Pro 等 AI 服务。
 
 ## 二、WildAI 平台的优势
 
