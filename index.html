@@ -3,711 +3,811 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- 基础SEO Meta标签 -->
-    <title>314NET - AI工具推荐与科技博客 | 2233AI & WildAI 推广平台</title>
-    <meta name="description" content="314NET是一个专注于AI工具推荐和技术分享的博客平台，主要推广2233AI和WildAI平台的优质服务，提供人工智能应用评测、使用教程和行业洞察。">
-    <meta name="keywords" content="314NET, 2233AI, WildAI, AI工具, 人工智能, 机器学习, AI平台推荐, 科技博客, GitHub博客">
-    <meta name="author" content="314NET">
+    <title>2233AI - 海外AI服务即买即用平台 | ChatGPT/Claude/Gemini随心用</title>
+    <meta name="description" content="2233AI是专业的海外AI服务即买即用平台，提供ChatGPT Plus、Claude Pro、Gemini Pro等热门AI工具合租服务。无需注册账号、独立对话存储、无封号风险，价格不到官方一半，安全可靠、即开即用。">
+    <meta name="keywords" content="2233AI,AI合租,ChatGPT Plus合租,Claude Pro订阅,Gemini Pro代充,海外AI工具,AI账号购买,GPT-4使用,AI服务充值,WildCard">
+    <meta name="author" content="2233AI">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://314net.github.io/">
     
-    <!-- Open Graph Meta标签（社交媒体分享优化） -->
-    <meta property="og:title" content="314NET - AI工具推荐与科技博客">
-    <meta property="og:description" content="探索2233AI和WildAI平台的优质服务，获取最新AI工具评测和技术教程">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://2233.ai/i/CEO">
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://314net.github.io/">
-    <meta property="og:site_name" content="314NET">
+    <meta property="og:url" content="https://2233.ai/i/CEO">
+    <meta property="og:title" content="2233AI - 海外AI服务即买即用平台">
+    <meta property="og:description" content="专业的ChatGPT Plus、Claude Pro、Gemini Pro等海外AI工具即买即用服务，无需注册，独立存储，无封号风险，价格不到官方一半。">
+    <meta property="og:image" content="https://2233.ai/images/og-image.jpg">
     <meta property="og:locale" content="zh_CN">
     
-    <!-- Twitter Card Meta标签 -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="314NET - AI工具推荐与科技博客">
-    <meta name="twitter:description" content="探索2233AI和WildAI平台的优质服务，获取最新AI工具评测和技术教程">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://2233.ai/i/CEO">
+    <meta property="twitter:title" content="2233AI - 海外AI服务即买即用平台">
+    <meta property="twitter:description" content="专业的ChatGPT Plus、Claude Pro、Gemini Pro等海外AI工具即买即用服务。">
+    <meta property="twitter:image" content="https://2233.ai/images/og-image.jpg">
     
-    <!-- 结构化数据 JSON-LD -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "314NET",
-        "url": "https://314net.github.io",
-        "description": "AI工具推荐与科技博客，推广2233AI和WildAI平台服务",
-        "author": {
-            "@type": "Person",
-            "name": "314NET"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "314NET"
-        }
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "2233AI",
+      "url": "https://2233.ai/i/CEO",
+      "description": "海外AI服务即买即用平台",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://2233.ai/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
     }
     </script>
     
-    <!-- 网站图标 -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
-    
-    <!-- 配置Tailwind主题 -->
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Inter', 'Noto Sans SC', 'sans-serif'],
-                    },
-                    colors: {
-                        primary: '#6366f1',
-                        secondary: '#8b5cf6',
-                        accent: '#ec4899',
-                        dark: '#0f172a',
-                    },
-                    animation: {
-                        'gradient': 'gradient 8s linear infinite',
-                        'float': 'float 6s ease-in-out infinite',
-                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                    },
-                    keyframes: {
-                        gradient: {
-                            '0%, 100%': { backgroundPosition: '0% 50%' },
-                            '50%': { backgroundPosition: '100% 50%' },
-                        },
-                        float: {
-                            '0%, 100%': { transform: 'translateY(0)' },
-                            '50%': { transform: 'translateY(-20px)' },
-                        }
-                    }
-                }
-            }
-        }
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "2233AI",
+      "url": "https://2233.ai/i/CEO",
+      "logo": "https://2233.ai/images/logo.png",
+      "description": "专业的海外AI服务即买即用平台",
+      "sameAs": [
+        "https://github.com/2233ai",
+        "https://twitter.com/2233ai"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "availableLanguage": ["Chinese", "English"]
+      }
+    }
     </script>
-    
+
     <style>
-        /* 自定义滚动条 */
-        ::-webkit-scrollbar {
-            width: 10px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #f1f1f1;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #888;
-            border-radius: 5px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #555;
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary: #7c3aed;
+            --accent: #06b6d4;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --gray: #64748b;
+            --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
         
-        /* 玻璃拟态效果 */
-        .glass {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
         
-        .dark .glass {
-            background: rgba(15, 23, 42, 0.7);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
         }
         
-        /* 渐变文字 */
-        .text-gradient {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
         }
         
-        .dark .text-gradient {
-            background: linear-gradient(135deg, #667eea 0%, #f093fb 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        
-        /* 卡片悬停效果 */
-        .hover-card {
-            transition: all 0.3s ease;
-        }
-        .hover-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-        }
-        
-        /* 链接下划线动画 */
-        .link-underline {
+        /* Hero Section */
+        .hero {
+            background: var(--gradient);
+            color: white;
+            padding: 80px 0 100px;
+            text-align: center;
             position: relative;
+            overflow: hidden;
         }
-        .link-underline::after {
+        
+        .hero::before {
             content: '';
             position: absolute;
-            width: 0;
-            height: 2px;
-            bottom: -2px;
+            top: 0;
             left: 0;
-            background-color: currentColor;
-            transition: width 0.3s ease;
-        }
-        .link-underline:hover::after {
-            width: 100%;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.08'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.1;
         }
         
-        /* 背景网格 */
-        .bg-grid {
-            background-image: 
-                linear-gradient(rgba(99, 102, 241, 0.1) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(99, 102, 241, 0.1) 1px, transparent 1px);
-            background-size: 50px 50px;
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 14px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .hero-subtitle {
+            font-size: 1.25rem;
+            opacity: 0.95;
+            max-width: 600px;
+            margin: 0 auto 40px;
+            line-height: 1.8;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: var(--primary);
+            padding: 16px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+            transition: left 0.5s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        
+        .cta-button:hover::before {
+            left: 100%;
+        }
+        
+        .invite-code {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+        
+        .invite-code strong {
+            background: rgba(255,255,255,0.2);
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-family: monospace;
+            letter-spacing: 2px;
+        }
+        
+        /* Features Grid */
+        .features {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: var(--dark);
+            margin-bottom: 50px;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: var(--gradient);
+            margin: 15px auto 0;
+            border-radius: 2px;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid #e2e8f0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--gradient);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            border-color: var(--primary);
+        }
+        
+        .feature-card:hover::before {
+            transform: scaleX(1);
+        }
+        
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--gradient);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 2rem;
+            color: white;
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--dark);
+        }
+        
+        .feature-card p {
+            color: var(--gray);
+            line-height: 1.8;
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 80px 0;
+            background: linear-gradient(to bottom, #f8fafc, white);
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        
+        .service-item {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            border: 2px solid #e2e8f0;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        
+        .service-item:hover {
+            border-color: var(--primary);
+            transform: translateX(10px);
+            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.1);
+        }
+        
+        .service-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(37, 99, 235, 0.1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+        
+        .service-content h4 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            color: var(--dark);
+        }
+        
+        .service-content p {
+            color: var(--gray);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        /* Price Comparison Section */
+        .price-compare {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .compare-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 900px;
+            margin: 40px auto 0;
+        }
+        
+        .compare-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            border: 2px solid #e2e8f0;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .compare-card.featured {
+            border-color: var(--primary);
+            box-shadow: 0 20px 40px rgba(37, 99, 235, 0.1);
+            transform: scale(1.05);
+        }
+        
+        .compare-card.featured::before {
+            content: '推荐';
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--gradient);
+            color: white;
+            padding: 4px 20px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        
+        .compare-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: var(--dark);
+        }
+        
+        .price-tag {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        
+        .price-tag span {
+            font-size: 1rem;
+            color: var(--gray);
+            font-weight: 400;
+        }
+        
+        .feature-list {
+            list-style: none;
+            margin: 20px 0;
+        }
+        
+        .feature-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #f1f5f9;
+            color: var(--gray);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .feature-list li::before {
+            content: '✓';
+            color: #10b981;
+            font-weight: bold;
+        }
+        
+        .feature-list li.negative::before {
+            content: '×';
+            color: #ef4444;
+        }
+        
+        /* Process Section */
+        .process {
+            padding: 80px 0;
+            background: linear-gradient(to bottom, #f8fafc, white);
+        }
+        
+        .process-steps {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 900px;
+            margin: 50px auto 0;
+            position: relative;
+        }
+        
+        .process-steps::before {
+            content: '';
+            position: absolute;
+            top: 40px;
+            left: 10%;
+            right: 10%;
+            height: 4px;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            z-index: 0;
+        }
+        
+        .step {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            flex: 1;
+        }
+        
+        .step-number {
+            width: 80px;
+            height: 80px;
+            background: white;
+            border: 4px solid var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--primary);
+            margin: 0 auto 20px;
+            box-shadow: 0 5px 15px rgba(37, 99, 235, 0.2);
+        }
+        
+        .step h4 {
+            font-size: 1.1rem;
+            color: var(--dark);
+            margin-bottom: 8px;
+        }
+        
+        .step p {
+            font-size: 0.9rem;
+            color: var(--gray);
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            background: var(--dark);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(37, 99, 235, 0.1) 0%, transparent 70%);
+            animation: pulse 4s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+        }
+        
+        .cta-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .cta-section p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+        
+        .cta-button-light {
+            display: inline-block;
+            background: var(--gradient);
+            color: white;
+            padding: 18px 50px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .cta-button-light:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 40px 0 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            text-align: center;
+        }
+        
+        .qr-section {
+            margin-bottom: 30px;
+        }
+        
+        .qr-code {
+            width: 180px;
+            height: 180px;
+            background: white;
+            padding: 12px;
+            border-radius: 16px;
+            margin: 0 auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+        
+        .qr-code:hover {
+            transform: scale(1.05);
+        }
+        
+        .qr-label {
+            margin-top: 15px;
+            font-size: 0.95rem;
+            color: #94a3b8;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .hero { padding: 60px 0 80px; }
+            .process-steps { flex-direction: column; gap: 40px; }
+            .process-steps::before { display: none; }
+            .step { width: 100%; }
+            .features-grid, .services-grid, .compare-grid { grid-template-columns: 1fr; }
+            .compare-card.featured { transform: scale(1); }
+        }
+        
+        /* Accessibility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+        
+        :focus-visible {
+            outline: 3px solid var(--accent);
+            outline-offset: 2px;
         }
     </style>
+<base target="_blank">
 </head>
-<body class="font-sans antialiased bg-gray-50 dark:bg-dark text-gray-900 dark:text-gray-100 transition-colors duration-300">
-
-    <!-- 导航栏 -->
-    <nav class="fixed w-full z-50 glass transition-all duration-300" id="navbar">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                <!-- Logo -->
-                <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.scrollTo(0,0)">
-                    <span class="text-2xl font-bold text-gradient">314NET</span>
-                    <span class="ml-2 text-xs px-2 py-1 bg-primary/10 text-primary rounded-full dark:bg-primary/20">Beta</span>
-                </div>
-                
-                <!-- 桌面端导航 -->
-                <div class="hidden md:flex space-x-8 items-center">
-                    <a href="#services" class="link-underline text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">服务推荐</a>
-                    <a href="#blog" class="link-underline text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">技术博客</a>
-                    <a href="#about" class="link-underline text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">关于</a>
-                    
-                    <!-- 主题切换按钮 -->
-                    <button onclick="toggleTheme()" class="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" aria-label="切换主题">
-                        <span id="theme-icon">🌙</span>
-                    </button>
-                </div>
-                
-                <!-- 移动端菜单按钮 -->
-                <div class="md:hidden flex items-center">
-                    <button onclick="toggleMobileMenu()" class="p-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 移动端菜单 -->
-        <div id="mobile-menu" class="hidden md:hidden glass border-t border-gray-200 dark:border-gray-700">
-            <div class="px-4 pt-2 pb-3 space-y-1">
-                <a href="#services" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800">服务推荐</a>
-                <a href="#blog" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800">技术博客</a>
-                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800">关于</a>
-            </div>
-        </div>
-    </nav>
-
+<body>
     <!-- Hero Section -->
-    <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-grid pt-16">
-        <!-- 动态背景 -->
-        <div class="absolute inset-0 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 dark:from-dark dark:via-gray-900 dark:to-dark opacity-90"></div>
-        
-        <!-- 浮动装饰元素 -->
-        <div class="absolute top-20 left-10 w-72 h-72 bg-primary/30 rounded-full mix-blend-multiply filter blur-xl animate-float dark:bg-primary/20"></div>
-        <div class="absolute top-40 right-10 w-72 h-72 bg-secondary/30 rounded-full mix-blend-multiply filter blur-xl animate-float dark:bg-secondary/20" style="animation-delay: 2s"></div>
-        <div class="absolute -bottom-8 left-20 w-72 h-72 bg-accent/30 rounded-full mix-blend-multiply filter blur-xl animate-float dark:bg-accent/20" style="animation-delay: 4s"></div>
-        
-        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div class="inline-flex items-center px-4 py-2 rounded-full bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 mb-8 shadow-lg animate-pulse-slow">
-                <span class="flex h-2 w-2 rounded-full bg-green-500 mr-2"></span>
-                <span class="text-sm font-medium text-gray-700 dark:text-gray-300">探索最新AI工具与技术服务</span>
-            </div>
-            
-            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
-                <span class="block text-gray-900 dark:text-white mb-2">欢迎来到</span>
-                <span class="text-gradient">314NET</span>
-            </h1>
-            
-            <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
-                专注于<strong class="text-primary">2233AI</strong>与<strong class="text-secondary">WildAI</strong>平台的优质服务推广，<br>
-                分享前沿AI技术评测、使用教程与行业深度洞察。
-            </p>
-            
-            <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://2233.ai/i/CEO" target="_blank" rel="noopener noreferrer" 
-                   class="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-primary to-secondary rounded-full overflow-hidden transition-all hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
-                    <span class="absolute inset-0 w-full h-full bg-gradient-to-r from-secondary to-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-                    <span class="relative flex items-center">
-                        访问 2233AI 
-                        <svg class="ml-2 w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
-                        </svg>
-                    </span>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge">🚀 零门槛即买即用AI服务平台</span>
+                <h1>2233AI<br><span style="font-size: 0.6em; font-weight: 400;">最强AI 触手可及</span></h1>
+                <p class="hero-subtitle">
+                    提供ChatGPT Plus、Claude Pro、Gemini Pro等全球领先AI工具的即买即用服务。
+                    无需注册账号、独立对话存储、无封号风险，价格不到官方一半，随时随地畅享原生AI体验。
+                </p>
+                <a href="https://2233.ai/i/CEO" class="cta-button" rel="nofollow noopener" target="_blank">
+                    立即开启AI之旅
                 </a>
-                
-                <a href="https://bewild.ai?code=CEO" target="_blank" rel="noopener noreferrer"
-                   class="group inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-600 rounded-full hover:border-primary dark:hover:border-primary hover:text-primary dark:hover:text-primary transition-all hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
-                    探索 WildAI
-                    <svg class="ml-2 w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                    </svg>
-                </a>
-            </div>
-            
-            <!-- 统计数据 -->
-            <div class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-3">
-                <div class="glass rounded-2xl p-6 hover-card">
-                    <div class="text-3xl font-bold text-primary">2+</div>
-                    <div class="text-sm text-gray-600 dark:text-gray-400 mt-1">优质AI平台</div>
-                </div>
-                <div class="glass rounded-2xl p-6 hover-card">
-                    <div class="text-3xl font-bold text-secondary">50+</div>
-                    <div class="text-sm text-gray-600 dark:text-gray-400 mt-1">技术文章</div>
-                </div>
-                <div class="glass rounded-2xl p-6 hover-card">
-                    <div class="text-3xl font-bold text-accent">100%</div>
-                    <div class="text-sm text-gray-600 dark:text-gray-400 mt-1">真实评测</div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 向下滚动提示 -->
-        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-            </svg>
-        </div>
-    </section>
-
-    <!-- 服务推荐区域 -->
-    <section id="services" class="py-24 bg-white dark:bg-gray-900 relative overflow-hidden">
-        <div class="absolute inset-0 bg-grid opacity-30"></div>
-        
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">推荐AI服务平台</h2>
-                <p class="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-                    精选两个优质AI平台，提供强大的AI工具与服务，助力您的数字化转型
+                <p class="invite-code">
+                    专属邀请码：<strong>CEO</strong>（享专属优惠）
                 </p>
             </div>
-            
-            <div class="grid md:grid-cols-2 gap-8">
-                <!-- 2233AI 卡片 -->
-                <article class="group relative bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 rounded-3xl p-8 border border-blue-100 dark:border-gray-700 hover-card overflow-hidden">
-                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-400/20 rounded-full -mr-16 -mt-16 blur-2xl group-hover:bg-blue-400/30 transition-all"></div>
-                    
-                    <div class="relative z-10">
-                        <div class="flex items-center justify-between mb-6">
-                            <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center text-white text-2xl font-bold shadow-lg">
-                                2233
-                            </div>
-                            <span class="px-4 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium">
-                                主推平台
-                            </span>
-                        </div>
-                        
-                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">2233AI</h3>
-                        <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
-                            强大的AI服务平台，提供多样化的AI工具与解决方案。无论是内容创作、代码辅助还是数据分析，2233AI都能为您提供专业级的AI能力支持。
-                        </p>
-                        
-                        <ul class="space-y-2 mb-8 text-sm text-gray-600 dark:text-gray-400">
-                            <li class="flex items-center">
-                                <svg class="w-4 h-4 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                </svg>
-                                多模态AI能力支持
-                            </li>
-                            <li class="flex items-center">
-                                <svg class="w-4 h-4 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                </svg>
-                                企业级API接口
-                            </li>
-                            <li class="flex items-center">
-                                <svg class="w-4 h-4 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                </svg>
-                                高性价比计费模式
-                            </li>
-                        </ul>
-                        
-                        <a href="https://2233.ai/i/CEO" target="_blank" rel="noopener noreferrer"
-                           class="inline-flex items-center justify-center w-full px-6 py-3 text-base font-medium text-white bg-blue-600 rounded-xl hover:bg-blue-700 transition-all hover:shadow-lg transform hover:-translate-y-0.5">
-                            立即访问 2233AI
-                            <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                            </svg>
-                        </a>
-                    </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">为什么选择 2233AI？</h2>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">🔓</div>
+                    <h3>无需注册</h3>
+                    <p>告别繁琐的账号注册流程，无需海外手机号验证，购买后立即获得访问权限，直接开始对话，即买即用零等待。</p>
                 </article>
                 
-                <!-- WildAI 卡片 -->
-                <article class="group relative bg-gradient-to-br from-purple-50 to-pink-50 dark:from-gray-800 dark:to-gray-900 rounded-3xl p-8 border border-purple-100 dark:border-gray-700 hover-card overflow-hidden">
-                    <div class="absolute top-0 right-0 w-32 h-32 bg-purple-400/20 rounded-full -mr-16 -mt-16 blur-2xl group-hover:bg-purple-400/30 transition-all"></div>
-                    
-                    <div class="relative z-10">
-                        <div class="flex items-center justify-between mb-6">
-                            <div class="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-2xl flex items-center justify-center text-white text-xl font-bold shadow-lg">
-                                Wild
-                            </div>
-                            <span class="px-4 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 rounded-full text-sm font-medium">
-                                特色平台
-                            </span>
-                        </div>
-                        
-                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">WildAI</h3>
-                        <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
-                            创新的AI应用平台，专注于提供独特的AI体验。WildAI以其创新的交互方式和强大的创意工具，为用户带来前所未有的AI使用体验。
-                        </p>
-                        
-                        <ul class="space-y-2 mb-8 text-sm text-gray-600 dark:text-gray-400">
-                            <li class="flex items-center">
-                                <svg class="w-4 h-4 mr-2 text-purple-500" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                </svg>
-                                创意AI工具集
-                            </li>
-                            <li class="flex items-center">
-                                <svg class="w-4 h-4 mr-2 text-purple-500" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                </svg>
-                                独特的交互体验
-                            </li>
-                            <li class="flex items-center">
-                                <svg class="w-4 h-4 mr-2 text-purple-500" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                </svg>
-                                新用户专属优惠
-                            </li>
-                        </ul>
-                        
-                        <a href="https://bewild.ai?code=CEO" target="_blank" rel="noopener noreferrer"
-                           class="inline-flex items-center justify-center w-full px-6 py-3 text-base font-medium text-white bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl hover:from-purple-700 hover:to-pink-700 transition-all hover:shadow-lg transform hover:-translate-y-0.5">
-                            探索 WildAI
-                            <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                            </svg>
-                        </a>
-                    </div>
+                <article class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>隐私安全</h3>
+                    <p>每位用户的对话记录独立存储，账户间互不干扰，严格保护个人隐私。无需担心数据泄露或对话内容被他人查看。</p>
+                </article>
+                
+                <article class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>无网络限制</h3>
+                    <p>无需科学上网，国内网络直接访问。无封号风险，无需担心账号异常，随时随地稳定接入AI服务。</p>
+                </article>
+                
+                <article class="feature-card">
+                    <div class="feature-icon">💎</div>
+                    <h3>超值半价</h3>
+                    <p>价格不到ChatGPT Plus官方订阅的一半，即可享受原生网页版完整功能。支持GPTs、DALL-E绘图、语音对话等全部特性。</p>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- 博客文章预览区域 -->
-    <section id="blog" class="py-24 bg-gray-50 dark:bg-dark relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row justify-between items-center mb-12">
-                <div>
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-2">最新博客文章</h2>
-                    <p class="text-gray-600 dark:text-gray-400">分享AI技术见解与平台使用经验</p>
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">支持的AI服务</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-icon">🤖</div>
+                    <div class="service-content">
+                        <h4>ChatGPT Plus 随心用</h4>
+                        <p>原生GPT-4/GPT-4o体验，支持联网搜索、代码解释器、自定义GPTs、DALL-E 3绘图。无需APP即可语音对话，功能完整无阉割。</p>
+                    </div>
                 </div>
-                <a href="/blog" class="mt-4 md:mt-0 inline-flex items-center text-primary hover:text-secondary font-medium transition-colors group">
-                    查看全部文章
-                    <svg class="ml-1 w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                    </svg>
-                </a>
-            </div>
-            
-            <!-- 文章网格 -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="blog-grid">
-                <!-- 文章卡片 1 -->
-                <article class="bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full border border-gray-100 dark:border-gray-700">
-                    <div class="h-48 bg-gradient-to-br from-blue-400 to-blue-600 relative overflow-hidden group">
-                        <div class="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors"></div>
-                        <div class="absolute bottom-4 left-4">
-                            <span class="px-3 py-1 bg-white/90 dark:bg-gray-900/90 text-blue-600 dark:text-blue-400 text-xs font-semibold rounded-full">
-                                AI评测
-                            </span>
-                        </div>
-                    </div>
-                    <div class="p-6 flex-1 flex flex-col">
-                        <div class="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-3">
-                            <time datetime="2024-02-20">2024年2月20日</time>
-                            <span class="mx-2">•</span>
-                            <span>5分钟阅读</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3 line-clamp-2 hover:text-primary dark:hover:text-primary transition-colors cursor-pointer">
-                            2233AI平台深度评测：功能、价格与使用体验全解析
-                        </h3>
-                        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-3 flex-1">
-                            全面分析2233AI平台的各项功能特性，对比市场同类产品，为您提供详细的使用指南和性价比分析...
-                        </p>
-                        <a href="/blog/2233ai-review" class="inline-flex items-center text-primary font-medium hover:text-secondary transition-colors mt-auto">
-                            阅读更多
-                            <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
                 
-                <!-- 文章卡片 2 -->
-                <article class="bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full border border-gray-100 dark:border-gray-700">
-                    <div class="h-48 bg-gradient-to-br from-purple-400 to-pink-600 relative overflow-hidden group">
-                        <div class="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors"></div>
-                        <div class="absolute bottom-4 left-4">
-                            <span class="px-3 py-1 bg-white/90 dark:bg-gray-900/90 text-purple-600 dark:text-purple-400 text-xs font-semibold rounded-full">
-                                教程指南
-                            </span>
-                        </div>
+                <div class="service-item">
+                    <div class="service-icon">🧠</div>
+                    <div class="service-content">
+                        <h4>Claude Pro 随心用</h4>
+                        <p>Anthropic最强AI助手，Claude 3 Opus/Sonnet/Haiku模型，超长上下文窗口，卓越的逻辑推理、代码编写和文档处理能力。</p>
                     </div>
-                    <div class="p-6 flex-1 flex flex-col">
-                        <div class="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-3">
-                            <time datetime="2024-02-18">2024年2月18日</time>
-                            <span class="mx-2">•</span>
-                            <span>8分钟阅读</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3 line-clamp-2 hover:text-primary dark:hover:text-primary transition-colors cursor-pointer">
-                            WildAI新手入门：如何使用邀请码CEO获取最大优惠
-                        </h3>
-                        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-3 flex-1">
-                            详细介绍WildAI平台的注册流程，以及如何使用邀请码CEO获得新用户专属福利，包含实用技巧...
-                        </p>
-                        <a href="/blog/wildai-guide" class="inline-flex items-center text-primary font-medium hover:text-secondary transition-colors mt-auto">
-                            阅读更多
-                            <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-                
-                <!-- 文章卡片 3 -->
-                <article class="bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full border border-gray-100 dark:border-gray-700">
-                    <div class="h-48 bg-gradient-to-br from-green-400 to-teal-600 relative overflow-hidden group">
-                        <div class="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors"></div>
-                        <div class="absolute bottom-4 left-4">
-                            <span class="px-3 py-1 bg-white/90 dark:bg-gray-900/90 text-green-600 dark:text-green-400 text-xs font-semibold rounded-full">
-                                行业洞察
-                            </span>
-                        </div>
-                    </div>
-                    <div class="p-6 flex-1 flex flex-col">
-                        <div class="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-3">
-                            <time datetime="2024-02-15">2024年2月15日</time>
-                            <span class="mx-2">•</span>
-                            <span>6分钟阅读</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3 line-clamp-2 hover:text-primary dark:hover:text-primary transition-colors cursor-pointer">
-                            2024年AI工具选型指南：2233AI vs WildAI对比分析
-                        </h3>
-                        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-3 flex-1">
-                            从功能、价格、适用场景等多个维度对比两大AI平台，帮助您选择最适合的AI服务解决方案...
-                        </p>
-                        <a href="/blog/ai-comparison-2024" class="inline-flex items-center text-primary font-medium hover:text-secondary transition-colors mt-auto">
-                            阅读更多
-                            <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- 关于/联系区域 -->
-    <section id="about" class="py-24 bg-white dark:bg-gray-900 relative overflow-hidden">
-        <div class="absolute inset-0 bg-grid opacity-20"></div>
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6">关于 314NET</h2>
-            <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-                314NET 是一个专注于人工智能技术推广与分享的博客平台。我们致力于发掘和推荐优质的AI服务，
-                帮助用户更好地了解和使用AI工具。目前主要推广 <strong class="text-primary">2233AI</strong> 和 
-                <strong class="text-secondary">WildAI</strong> 两大平台，为用户提供真实的使用评测和详细的操作指南。
-            </p>
-            
-            <div class="flex flex-wrap justify-center gap-4 mb-12">
-                <a href="https://github.com/314net" target="_blank" rel="noopener noreferrer" 
-                   class="inline-flex items-center px-6 py-3 rounded-full bg-gray-900 dark:bg-gray-800 text-white hover:bg-gray-800 dark:hover:bg-gray-700 transition-colors">
-                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                        <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
-                    </svg>
-                    GitHub
-                </a>
-                <a href="mailto:contact@314net.github.io" 
-                   class="inline-flex items-center px-6 py-3 rounded-full bg-primary text-white hover:bg-primary/90 transition-colors">
-                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                    </svg>
-                    联系我们
-                </a>
-            </div>
-            
-            <div class="glass rounded-2xl p-8 max-w-2xl mx-auto">
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">订阅更新</h3>
-                <p class="text-gray-600 dark:text-gray-400 mb-6 text-sm">获取最新的AI工具评测和技术文章推送</p>
-                <form class="flex flex-col sm:flex-row gap-3" onsubmit="event.preventDefault(); alert('感谢订阅！功能即将上线');">
-                    <input type="email" placeholder="输入您的邮箱地址" required
-                           class="flex-1 px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary">
-                    <button type="submit" 
-                            class="px-6 py-3 bg-gradient-to-r from-primary to-secondary text-white font-medium rounded-lg hover:opacity-90 transition-opacity whitespace-nowrap">
-                        立即订阅
-                    </button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- 页脚 -->
-    <footer class="bg-gray-900 text-gray-300 py-12 border-t border-gray-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-4 gap-8 mb-8">
-                <div class="col-span-2">
-                    <span class="text-2xl font-bold text-white mb-4 block">314NET</span>
-                    <p class="text-sm text-gray-400 leading-relaxed max-w-xs">
-                        专注于AI工具推荐与技术分享的博客平台，推广2233AI和WildAI优质服务。
-                    </p>
                 </div>
-                <div>
-                    <h4 class="text-white font-semibold mb-4">快速链接</h4>
-                    <ul class="space-y-2 text-sm">
-                        <li><a href="https://2233.ai/i/CEO" target="_blank" rel="noopener" class="hover:text-primary transition-colors">2233AI 平台</a></li>
-                        <li><a href="https://bewild.ai?code=CEO" target="_blank" rel="noopener" class="hover:text-primary transition-colors">WildAI 平台</a></li>
-                        <li><a href="#blog" class="hover:text-primary transition-colors">技术博客</a></li>
+                
+                <div class="service-item">
+                    <div class="service-icon">✨</div>
+                    <div class="service-content">
+                        <h4>Gemini Pro 随心用</h4>
+                        <p>Google DeepMind多模态AI模型，支持文本、图像、视频理解，强大的推理与创作能力，与Google生态深度整合。</p>
+                    </div>
+                </div>
+                
+                <div class="service-item">
+                    <div class="service-icon">🎨</div>
+                    <div class="service-content">
+                        <h4>Sora / DALL-E 绘图</h4>
+                        <p>AI图像生成与视频创作，根据文字描述生成高清精美图像，支持多种艺术风格，满足创意设计与内容创作需求。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Price Comparison Section -->
+    <section class="price-compare" id="pricing">
+        <div class="container">
+            <h2 class="section-title">价格对比</h2>
+            <div class="compare-grid">
+                <div class="compare-card">
+                    <h3>官方原版</h3>
+                    <div class="price-tag">$20<span>/月</span></div>
+                    <ul class="feature-list">
+                        <li class="negative">需要海外信用卡</li>
+                        <li class="negative">有网络要求（需科学上网）</li>
+                        <li class="negative">存在封号风险</li>
+                        <li>独立对话记录</li>
+                        <li class="negative">需下载APP进行语音对话</li>
+                        <li>支持GPTs商店</li>
                     </ul>
                 </div>
-                <div>
-                    <h4 class="text-white font-semibold mb-4">法律信息</h4>
-                    <ul class="space-y-2 text-sm">
-                        <li><a href="/privacy" class="hover:text-primary transition-colors">隐私政策</a></li>
-                        <li><a href="/terms" class="hover:text-primary transition-colors">使用条款</a></li>
-                        <li><a href="/sitemap.xml" class="hover:text-primary transition-colors">站点地图</a></li>
+                
+                <div class="compare-card featured">
+                    <h3>2233AI 随心用</h3>
+                    <div class="price-tag">$9.99<span>/月起</span></div>
+                    <ul class="feature-list">
+                        <li>支付宝/微信直接支付</li>
+                        <li>无网络要求（国内直连）</li>
+                        <li>无封号风险</li>
+                        <li>独立对话记录存储</li>
+                        <li>无需APP，网页直接语音对话</li>
+                        <li>完整支持GPTs与DALL-E</li>
                     </ul>
                 </div>
             </div>
-            <div class="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-sm text-gray-500">
-                    &copy; 2024 314NET. All rights reserved. 
-                    <span class="hidden md:inline">|</span> 
-                    <br class="md:hidden">
-                    使用 GitHub Pages 构建
-                </p>
-                <div class="flex space-x-4 mt-4 md:mt-0">
-                    <a href="https://github.com/314net" target="_blank" rel="noopener" class="text-gray-400 hover:text-white transition-colors">
-                        <span class="sr-only">GitHub</span>
-                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
-                        </svg>
-                    </a>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <h2 class="section-title">简单三步，即刻开启</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h4>访问网站</h4>
+                    <p>点击按钮进入2233.ai<br>使用邀请码 CEO</p>
                 </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h4>选择服务</h4>
+                    <p>选择ChatGPT/Claude/Gemini<br>挑选合适的使用时长</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h4>支付使用</h4>
+                    <p>支付宝/微信扫码支付<br>秒级开通，立即使用</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>准备好体验原生AI了吗？</h2>
+                <p>数万用户的选择，无需折腾，即买即用，让AI真正触手可及</p>
+                <a href="https://2233.ai/i/CEO" class="cta-button-light" rel="nofollow noopener" target="_blank">
+                    立即访问 2233AI →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="qr-section">
+                <div class="qr-code" style="display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; font-size: 1.2rem; font-weight: bold;">
+                    2233.ai
+                </div>
+                <p class="qr-label">访问 https://2233.ai/i/CEO 立即使用</p>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2024 2233AI. All rights reserved.</p>
+                <p style="margin-top: 10px; font-size: 0.8rem; opacity: 0.7;">
+                    免责声明：2233AI仅提供AI工具接入服务，AI模型版权归原平台所有。请遵守各平台使用条款。
+                </p>
             </div>
         </div>
     </footer>
-
-    <!-- JavaScript -->
-    <script>
-        // 主题切换功能
-        function toggleTheme() {
-            const html = document.documentElement;
-            const icon = document.getElementById('theme-icon');
-            
-            if (html.classList.contains('dark')) {
-                html.classList.remove('dark');
-                icon.textContent = '🌙';
-                localStorage.theme = 'light';
-            } else {
-                html.classList.add('dark');
-                icon.textContent = '☀️';
-                localStorage.theme = 'dark';
-            }
-        }
-        
-        // 初始化主题
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.classList.add('dark');
-            document.getElementById('theme-icon').textContent = '☀️';
-        }
-        
-        // 移动端菜单切换
-        function toggleMobileMenu() {
-            const menu = document.getElementById('mobile-menu');
-            menu.classList.toggle('hidden');
-        }
-        
-        // 导航栏滚动效果
-        let lastScroll = 0;
-        window.addEventListener('scroll', () => {
-            const navbar = document.getElementById('navbar');
-            const currentScroll = window.pageYOffset;
-            
-            if (currentScroll > 100) {
-                navbar.classList.add('shadow-lg');
-            } else {
-                navbar.classList.remove('shadow-lg');
-            }
-            
-            lastScroll = currentScroll;
-        });
-        
-        // 平滑滚动
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                    // 关闭移动端菜单
-                    document.getElementById('mobile-menu').classList.add('hidden');
-                }
-            });
-        });
-        
-        // 文章数据（实际使用时可以从JSON文件加载）
-        const blogPosts = [
-            {
-                title: "2233AI平台深度评测：功能、价格与使用体验全解析",
-                excerpt: "全面分析2233AI平台的各项功能特性，对比市场同类产品，为您提供详细的使用指南和性价比分析...",
-                category: "AI评测",
-                date: "2024-02-20",
-                readTime: "5分钟",
-                url: "/blog/2233ai-review",
-                color: "blue"
-            },
-            {
-                title: "WildAI新手入门：如何使用邀请码CEO获取最大优惠",
-                excerpt: "详细介绍WildAI平台的注册流程，以及如何使用邀请码CEO获得新用户专属福利，包含实用技巧...",
-                category: "教程指南",
-                date: "2024-02-18",
-                readTime: "8分钟",
-                url: "/blog/wildai-guide",
-                color: "purple"
-            },
-            {
-                title: "2024年AI工具选型指南：2233AI vs WildAI对比分析",
-                excerpt: "从功能、价格、适用场景等多个维度对比两大AI平台，帮助您选择最适合的AI服务解决方案...",
-                category: "行业洞察",
-                date: "2024-02-15",
-                readTime: "6分钟",
-                url: "/blog/ai-comparison-2024",
-                color: "green"
-            }
-        ];
-        
-        // 动态生成文章卡片（可选：用于从JSON加载更多文章）
-        function renderBlogPosts() {
-            const grid = document.getElementById('blog-grid');
-            // 这里可以添加从API或JSON文件加载更多文章的逻辑
-        }
-        
-        // 页面加载完成后的初始化
-        document.addEventListener('DOMContentLoaded', () => {
-            // 可以在这里添加页面分析、广告加载等脚本
-            console.log('314NET loaded successfully');
-        });
-    </script>
 </body>
 </html>
