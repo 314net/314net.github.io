@@ -2,7 +2,7 @@
 
 ## 一、什么是HUTAO Cards
 
-**HUTAO Cards（胡桃卡）** 是专为国内用户设计的虚拟信用卡服务平台，成立于2025年，致力于解决跨境支付难题。该平台提供美国Visa和MasterCard虚拟信用卡，支持订阅ChatGPT Plus、Claude Pro、Midjourney、GitHub Copilot、YouTube Premium、Netflix等海外AI服务和数字平台。
+**HUTAO Cards（官网：<https://hutaocards.com/login?code=bnnhhd>）** 是专为国内用户设计的虚拟信用卡服务平台，成立于2025年，致力于解决跨境支付难题。该平台提供美国Visa和MasterCard虚拟信用卡，支持订阅ChatGPT Plus、Claude Pro、Midjourney、GitHub Copilot、YouTube Premium、Netflix等海外AI服务和数字平台。
 
 与传统实体信用卡相比，胡桃卡最大的优势在于：**无需银行审批、支持支付宝直接充值、开卡速度快（几分钟内完成）、专为国内用户优化支付通道**。
 
@@ -12,7 +12,7 @@
 
 ### 第一步：访问官网并创建账户
 
-1. 打开HUTAO Cards官方网站：<https://hutaocards.com/login?code=2L4keg>
+1. 打开HUTAO Cards官方网站：<https://hutaocards.com/login?code=bnnhhd>
 2. 点击「立即注册」按钮
 3. 输入有效的电子邮箱地址或手机号
 4. 设置安全密码（建议包含大小写字母、数字及特殊符号）
@@ -190,8 +190,7 @@ HUTAO Cards特别适合以下用户群体：
 - 保持余额充足，避免订阅中断
 - 一卡多用，覆盖主流AI工具
 
-**立即访问官网开始办理**：<https://hutaocards.com/login?code=2L4keg>
-
+**立即访问官网开始办理**：<https://hutaocards.com/login?code=bnnhhd>
 ---
 
 *本文仅供参考，具体功能及费率以HUTAO Cards官方最新公告为准。使用虚拟信用卡服务请遵守相关法律法规及平台服务条款。*
