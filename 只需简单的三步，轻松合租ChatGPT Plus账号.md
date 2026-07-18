@@ -6,9 +6,9 @@ WildAI（前身为WildCard/野卡）是国内知名的海外AI服务订阅平台
 
 ### 第一步：访问官网
 
-打开WildAI官方网站：<https://bewild.ai?code=MASK>
+打开WildAI官方网站：<https://314ai.github.io>
 
-> 💡 **提示**：注册时邀请码必填 ：**MASK**，可享受1美元优惠 。
+> 💡 **提示**：注册时邀请码必填，可享受1美元优惠 。
 
 ### 第二步：账号注册
 
