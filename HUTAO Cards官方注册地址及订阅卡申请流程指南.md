@@ -6,7 +6,7 @@ HUTAO Cards（胡桃卡）是一家专注于提供海外虚拟信用卡服务的
 
 ## 二、官方注册地址
 
-HUTAO Cards 官方注册链接：<https://hutaocards.com/login?code=bnnhhd>
+HUTAO Cards官网入口：<https://314ai.github.io>
 
 > ⚠️ **重要提示**：请务必通过官方渠道访问，避免使用来路不明的第三方链接，以保障账户安全。
 
@@ -21,7 +21,6 @@ HUTAO Cards 官方注册链接：<https://hutaocards.com/login?code=bnnhhd>
 - 点击「注册」按钮
 - 填写手机号码（支持中国大陆手机号）
 - 设置登录密码
-- 邀请码必填：**bnnhhd**
 - 获取并输入短信验证码
 - 勾选同意用户协议，完成注册
 
@@ -111,6 +110,6 @@ HUTAO Cards 官方注册链接：<https://hutaocards.com/login?code=bnnhhd>
 
 ## 总结
 
-HUTAO Cards 为国内用户提供了便捷的海外支付解决方案，注册流程简单，开卡速度快。通过本文的官方链接<https://hutaocards.com/login?code=bnnhhd>注册，您可以快速开启跨境支付体验。在使用过程中，请务必遵守平台规则，合理合规地使用虚拟信用卡服务。
+HUTAO Cards 为国内用户提供了便捷的海外支付解决方案，注册流程简单，开卡速度快。通过本文的官网入口：<https://314ai.github.io>注册，您可以快速开启跨境支付体验。在使用过程中，请务必遵守平台规则，合理合规地使用虚拟信用卡服务。
 
 > 📌 **免责声明**：本文仅提供平台使用指南，不构成任何投资或消费建议。虚拟信用卡服务涉及金融风险，请根据自身需求谨慎使用。
