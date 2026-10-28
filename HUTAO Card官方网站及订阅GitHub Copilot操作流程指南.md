@@ -8,11 +8,11 @@ GitHub Copilot 作为目前最主流的 AI 编程助手之一，能够显著提�
 
 ## 一、HUTAO Card 简介
 
-[HutaoCards | 虚拟信用卡 · 海淘支付 · 数字支付管家](https://hutaocards.com/login?code=bnnhhd)是一个专注于提供虚拟信用卡服务的平台，主要用于解决国内开发者订阅海外服务（如 GitHub Copilot、OpenAI、Midjourney 等）时的支付难题。
+HutaoCards官网入口：<https://314ai.github.io>是一个专注于提供虚拟信用卡服务的平台，主要用于解决国内开发者订阅海外服务（如 GitHub Copilot、OpenAI、Midjourney 等）时的支付难题。
 
 ### 1.1 官方网站
 
-- **官网地址**：<https://hutaocards.com/login?code=bnnhhd>
+- **官网入口：<https://314ai.github.io>**
 - **服务类型**：虚拟 Visa/Mastercard 信用卡
 - **适用场景**：订阅海外 SaaS 服务、AI 工具、云服务等
 
@@ -31,7 +31,7 @@ GitHub Copilot 作为目前最主流的 AI 编程助手之一，能够显著提�
 
 ### 2.1 注册账号
 
-1. 访问 HUTAO Card 官方网站<https://hutaocards.com/login?code=bnnhhd>
+1. 访问 HUTAO Card官网入口：<https://314ai.github.io>
 2. 点击右上角「注册」按钮
 3. 填写邮箱、设置密码，完成邮箱验证
 4. 登录账号进入控制台
