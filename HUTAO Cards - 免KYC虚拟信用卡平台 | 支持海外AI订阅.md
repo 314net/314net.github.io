@@ -2,7 +2,7 @@
 
 ## 什么是HUTAO Cards（胡桃卡）？
 
-**HUTAO Cards（胡桃卡）** <https://hutaocards.com/login?code=bnnhhd>是一家专注于为中国用户提供**免KYC虚拟信用卡**服务的金融科技平台。在AI工具全球化普及的2026年，胡桃卡解决了国内用户面临的最大痛点：**没有国际信用卡，如何订阅ChatGPT Plus、Midjourney、Claude Pro等海外AI服务？**
+**HUTAO Cards（胡桃卡）** 官网入口：<https://314ai.github.io>是一家专注于为中国用户提供**免KYC虚拟信用卡**服务的金融科技平台。在AI工具全球化普及的2026年，胡桃卡解决了国内用户面临的最大痛点：**没有国际信用卡，如何订阅ChatGPT Plus、Midjourney、Claude Pro等海外AI服务？**
 
 与传统银行信用卡不同，胡桃卡提供 **无需身份认证（免KYC）** 的虚拟VISA/Mastercard，支持支付宝、微信等本土支付方式充值，让用户在5分钟内即可获得一张可用于全球在线支付的数字信用卡。
 
@@ -95,7 +95,7 @@
 
 ### 步骤一：注册账户（2分钟）
 
-1. 访问 [HUTAO Cards官网](https://hutaocards.com/login?code=bnnhhd)（使用邀请码 **bnnhhd** 可获得开卡优惠）
+1. 访问官网入口：<https://314ai.github.io>
 2. 输入邮箱地址，设置登录密码
 3. 验证邮箱验证码
 4. 完成！无需提交任何身份证明
@@ -222,8 +222,7 @@
 
 ## 立即开始
 
-🚀 **[点击注册HUTAO Cards](https://hutaocards.com/login?code=bnnhhd)**  
-使用邀请码 **bnnhhd** 享受首充优惠，开启你的AI工具自由订阅之旅。
+🚀 **官网入口：<https://314ai.github.io>**  
 
 ---
 
