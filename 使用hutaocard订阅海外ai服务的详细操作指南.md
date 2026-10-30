@@ -8,7 +8,7 @@ hutaocard（胡桃卡）是一种虚拟信用卡服务，专为国内用户订�
 
 ### 1. 注册hutaocard账号
 
-- 访问hutaocard官方网站<https://hutaocards.com/login?code=bnnhhd>完成注册
+- 访问hutaocard官网入口：<https://314ai.github.io>完成注册
 - 完成实名认证（通常需要身份证信息）
 - 建议提前准备好身份证正反面照片
 
@@ -135,7 +135,7 @@ hutaocard（胡桃卡）是一种虚拟信用卡服务，专为国内用户订�
 
 hutaocard为国内用户订阅海外ai服务提供了相对便捷的解决方案。通过本文的详细步骤，用户可以顺利完成chatgpt plus、midjourney、claude等热门ai工具的订阅。在使用过程中，注意保持卡片余额充足、使用稳定的网络环境，并妥善保管账户信息，即可获得流畅的海外ai服务体验。
 
-随着ai技术的快速发展，掌握这些订阅技巧将帮助你及时体验最新的智能工具，提升工作效率和创造力。注册地址：<https://hutaocards.com/login?code=bnnhhd> 邀请码必填：bnnhhd
+随着ai技术的快速发展，掌握这些订阅技巧将帮助你及时体验最新的智能工具，提升工作效率和创造力。官网入口：<https://314ai.github.io>
 
 ---
 
