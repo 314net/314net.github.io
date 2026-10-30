@@ -2,7 +2,7 @@
 
 ## 一、HUTAO Card（胡桃卡）简介
 
-HUTAO Card（胡桃卡）是专为国内用户设计的虚拟信用卡服务平台，致力于解决海外数字服务订阅的支付难题。作为一款新兴的虚拟信用卡工具，胡桃卡自2025年起迅速成为跨境支付领域的热门选择，支持用户通过简单的流程申请Visa或万事达（Mastercard）虚拟卡，用于订阅ChatGPT Plus、GitHub Copilot、Claude Pro等国际AI工具，以及Netflix、Spotify等流媒体服务。胡桃卡官网：<https://hutaocards.com/login?code=bnnhhd>
+HUTAO Card（胡桃卡）是专为国内用户设计的虚拟信用卡服务平台，致力于解决海外数字服务订阅的支付难题。作为一款新兴的虚拟信用卡工具，胡桃卡自2025年起迅速成为跨境支付领域的热门选择，支持用户通过简单的流程申请Visa或万事达（Mastercard）虚拟卡，用于订阅ChatGPT Plus、GitHub Copilot、Claude Pro等国际AI工具，以及Netflix、Spotify等流媒体服务。胡桃卡官网入口：<https://314ai.github.io>
 
 ### 核心优势
 
@@ -30,9 +30,9 @@ HUTAO平台主要提供两种虚拟卡类型：
 
 ### 步骤一：注册账号
 
-1. **访问官网**：打开[HUTAO Card官网](https://hutaocards.com/login?code=bnnhhd)
+1. **访问官网**：打开官网入口：<https://314ai.github.io>
 2. **点击注册**：使用邮箱或手机号完成注册（建议使用常用邮箱以便接收通知）
-3. **填写邀请码**（必填：**bnnhhd**）可领取1美元开卡优惠
+3. **填写邀请码**可领取1美元开卡优惠
 
 ### 步骤二：实名认证
 
