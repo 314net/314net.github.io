@@ -18,7 +18,7 @@ HUTAO Card是专为国内用户设计的虚拟信用卡平台，提供Visa和Mas
 | **Stripe兼容** | 针对Stripe支付通道优化，成功率超95% |
 | **多平台通用** | 支持OpenAI API、ChatGPT Plus、Claude、Midjourney等 |
 
-**官网入口**：<https://hutaocards.com/login?code=bnnhhd>
+**官网入口**：<https://314ai.github.io>
 
 ---
 
@@ -26,7 +26,7 @@ HUTAO Card是专为国内用户设计的虚拟信用卡平台，提供Visa和Mas
 
 ### 步骤1：注册与实名认证
 
-1. 访问HUTAO Card官网：<https://hutaocards.com/login?code=bnnhhd>
+1. 访问HUTAO Card官网入口：<https://314ai.github.io>
 2. 使用邮箱注册账号
 3. 完成简单实名认证（仅需身份证号验证，无需上传证件照片）
 4. 选择开卡类型：
@@ -134,7 +134,7 @@ HUTAO Card同样适用于：
 
 相比传统境外银行卡或代充服务，HUTAO Card的优势在于**完全自主可控、资金安全透明、支持多平台复用**。一旦开通，即可轻松解锁OpenAI API、Claude等主流AI大模型的开发能力，实现"一卡在手，全球AI服务畅行无阻"。
 
-**立即开通**：<https://hutaocards.com/login?code=bnnhhd>
+**立即开通**：官网入口：<https://314ai.github.io>
 
 ---
 
