@@ -2,7 +2,7 @@
 
 ## 一、什么是胡桃卡HUTAOCards？
 
-胡桃卡（HUTAOCards）是一款专为国内用户设计的虚拟信用卡服务，旨在解决海外支付难题。它提供VISA虚拟信用卡，让用户能够便捷地订阅各类海外服务，尤其是AI工具和服务平台。官方注册地址：<https://hutaocards.com/login?code=bnnhhd>
+胡桃卡（HUTAOCards）是一款专为国内用户设计的虚拟信用卡服务，旨在解决海外支付难题。它提供VISA虚拟信用卡，让用户能够便捷地订阅各类海外服务，尤其是AI工具和服务平台。官网入口：<https://314ai.github.io>
 
 ## 二、核心功能介绍
 
@@ -41,7 +41,7 @@
 
 ### 第一步：注册账号
 
-1. 访问胡桃卡官网：[https://hutaocards.com/login?code=bnnhhd](https://hutaocards.com/login?code=bnnhhd)
+1. 访问胡桃卡官网入口：<https://314ai.github.io>
 2. 点击"注册"按钮
 3. 填写手机号/邮箱，设置密码
 4. 完成实名认证（需身份证）
