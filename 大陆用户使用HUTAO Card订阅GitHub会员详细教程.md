@@ -2,8 +2,7 @@
 
 ## 前言
 
-GitHub Copilot作为目前最主流的AI编程助手，能够显著提升开发效率。然而，由于GitHub不支持国内银行卡和支付宝/微信支付，许多开发者在订阅时遇到支付障碍。本文将详细介绍如何通过**HUTAO虚拟信用卡**（Visa/MasterCard）顺利完成GitHub Copilot会员订阅。HUTAO Card注册地址：<https://hutaocards.com/login?code=bnnhhd>
-
+GitHub Copilot作为目前最主流的AI编程助手，能够显著提升开发效率。然而，由于GitHub不支持国内银行卡和支付宝/微信支付，许多开发者在订阅时遇到支付障碍。本文将详细介绍如何通过**HUTAO虚拟信用卡**（Visa/MasterCard）顺利完成GitHub Copilot会员订阅。HUTAO Card官网入口：<https://314ai.github.io>
 ## 一、什么是HUTAO Card？
 
 HUTAO Card是一款专为国内用户设计的虚拟信用卡平台，提供Visa和MasterCard两种卡头，支持支付宝、微信等国内常用支付方式充值。其主要优势包括：
@@ -30,7 +29,7 @@ HUTAO Card是一款专为国内用户设计的虚拟信用卡平台，提供Visa
 
 ### 步骤1：注册HUTAO账户
 
-1. 访问HUTAO官网<https://hutaocards.com/login?code=bnnhhd>邀请码必填：**bnnhhd**
+1. 访问HUTAO官网入口：<https://314ai.github.io>
 2. 点击"注册"按钮，填写邮箱地址和设置密码
 3. 邮箱验证后即可登录系统
 
